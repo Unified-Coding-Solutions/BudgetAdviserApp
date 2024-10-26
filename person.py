@@ -1,6 +1,6 @@
 # Description: This file contains the Person class which is used to store the information of a person.
 
-from Coding.BudgetAdviserApp.expenses import Expenses
+from expenses import Expenses
 
 
 class Person:

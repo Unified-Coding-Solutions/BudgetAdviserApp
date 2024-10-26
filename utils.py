@@ -3,8 +3,8 @@ from typing import Optional
 import time
 import typer
 from rich.progress import track
-from Coding.BudgetAdviserApp.expenses import Expenses
-from Coding.BudgetAdviserApp.person import Person
+from expenses import Expenses
+from person import Person
 
 
 def user_login(username: str, password: str) -> bool:
